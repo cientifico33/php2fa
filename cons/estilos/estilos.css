@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+/*  overflow: hidden;*/
+}
+
+body{
+	background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#container{
+	/*background-color: silver;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	height: 100%;*/
+}
+
+#FormContainer{
+	/*background-color: grey;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+table{
+	min-width: 20rem;
+	max-width: 40rem;
+	margin: 1rem;
+	text-align: center;
+	table-layout: fixed;
+}
+
+table td {
+  width: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+/*  border: 1px solid #ccc;*/
+}
+
+table img{
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.instrucciones{
+	min-width: 20rem;
+	max-width: 40rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+ 	background-color: rgba(255,255,255,0.4);
+	background-clip: border-box;
+	padding: 1rem;
+	border-radius: 1rem	;
+}
+.instrucciones b{
+	font-weight: bolder;
+}
+
+#qr_code{
+	margin-bottom: 1rem;
+	border-radius: 1rem;
+}
+
+.error{
+	color: red;
+}
+
+h2{
+	color: white;
+	margin: 100px;
+	text-align: center;
+}
+
+.instrucciones{
+	text-align: justify;
+}
+
+#2fa{
+	width: 8rem;
+}
+
+#MfaForm{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}z*/
+
+
+#logos{
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+.logo{
+	height: 12rem;
+}
+
+
+
+
+
+/******MODALS******/
+.modal-body{
+    text-align: center;
+  }
+  .modal-body p{
+    text-align: justify;
+  }
+  .modal-body img{
+    max-width: 20rem;
+    align-self: center;
+    margin-bottom: 2rem;
+  }

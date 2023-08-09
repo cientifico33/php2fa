@@ -1,0 +1,9 @@
+{
+    "require": {
+        "pragmarx/google2fa": "^8.0",
+        "components/jquery": "^3.6",
+        "twbs/bootstrap": "^5.3",
+        "twbs/bootstrap-icons": "^1.10",
+        "uxweb/sweet-alert": "^2.0"
+    }
+}
